@@ -197,10 +197,13 @@ data-spollers="768,min" - спойлеры будут работать толь�
 let beg = document.querySelector(".beg");
 let menuBody = document.querySelector(".menu__body");
 // let iconMenu = document.querySelector(".icon-menu");
+let body =  document.querySelector("body");
 
 beg.onclick = function () {
     menuBody.classList.remove("_active");
     iconMenu.classList.remove("_active");
+	body.classList.remove("_lock");
+
 };
 
 // menuShadow
